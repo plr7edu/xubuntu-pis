@@ -1,5 +1,5 @@
 <a>
-    <img src="https://avatars.githubusercontent.com/u/65597016?s=200&v=4"  title="Linuxmint" align="right" height="50" />
+    <img src="https://avatars.githubusercontent.com/u/65597016?s=200&v=4"  title="Xubuntu" align="right" height="50" />
 </a>
 
 #  XUBUNTU-PIS

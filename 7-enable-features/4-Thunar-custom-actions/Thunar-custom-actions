@@ -1,0 +1,107 @@
+1
+Open Terminal Here
+Example for a custom action
+exo-open --working-directory %f --launch TerminalEmulator
+*
+Directories **
+
+
+2
+Make Executable
+Make a file execuble
+chmod +x %f
+*
+*
+Text Files
+Other Files
+
+
+3
+Ownership to User
+Change permissions to user
+/usr/bin/pkexec chown -R $USER:$USER %F
+*
+*
+(ALL)
+
+
+4
+Ownership to root
+Change permissions to root
+/usr/bin/pkexec chown -R root:root %F
+*
+*
+(ALL)
+
+5
+Create Symlink
+Softlink between two files or directories
+ln -s %f "%n"
+*
+*
+Directories **
+Text Files
+Other Files
+
+
+6
+Run
+Run with terminal
+alacritty -e %f
+*
+*
+Text File
+Other Files
+
+7
+Open directory as root
+Open current directory using thunar with root permission
+pkexec thunar %f
+*
+*
+Directories **
+
+8
+Extract Here with dtrx
+Extract with dtrx
+dtrx %F
+
+*.tar.bz2;*tbz2;*zip;*7z;*rar;*tar.xz;*tar.gz
+*
+Other Files
+
+9
+Search with catfish
+Search files using catfish
+catfish --path=$f$d
+*
+*
+Directories **
+
+10
+Compare
+Compare with meld
+meld %F
+*
+*
+Directories **
+Text Files
+Other Files
+
+11
+Edit as Root
+Edit text with root permission
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY geany %f
+*
+*
+Text Files
+
+
+12
+Rename [(-.) (+ )]
+Remove dots and add spaces
+Rename-shortcuts (Submenu)
+rename 'y/./ /' %F
+*
+*
+(ALL)

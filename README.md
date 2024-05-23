@@ -2,7 +2,7 @@
     <img src="https://avatars.githubusercontent.com/u/65597016?s=200&v=4"  title="Linuxmint" align="right" height="50" />
 </a>
 
-# PLR-LMPI
+#  Xubuntu-pis
 ## PLR Xubuntu Post Installation
 
 ---

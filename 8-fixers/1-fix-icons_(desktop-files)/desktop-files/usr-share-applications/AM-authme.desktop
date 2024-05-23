@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Privacy;
+Exec=authme
+Icon=/opt/authme/icons/authme
+Name=Authme
+Terminal=false
+Type=Application

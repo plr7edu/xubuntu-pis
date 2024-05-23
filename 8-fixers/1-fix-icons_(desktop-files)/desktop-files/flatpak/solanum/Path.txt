@@ -1,0 +1,1 @@
+/var/lib/flatpak/app/org.gnome.Solanum/x86_64/stable/4771eef2060d68d40535be5beee6893f1db86fe2def9fcfb7bdd2126d8ac7574/export/share/applications/

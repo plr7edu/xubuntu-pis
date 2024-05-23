@@ -1,0 +1,8 @@
+You can reset the changes by resetting all the overrides at once. 
+Please note that this will reset any previous overrides you had explicitly set.
+
+sudo flatpak override --reset
+
+Alternatively, you can reset permissions at the package level as well:
+
+sudo flatpak override --reset org.example.app

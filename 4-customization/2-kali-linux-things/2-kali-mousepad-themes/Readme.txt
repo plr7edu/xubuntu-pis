@@ -1,0 +1,1 @@
+Also work with xed.

@@ -1,0 +1,1 @@
+/var/lib/flatpak/app/md.obsidian.Obsidian/x86_64/stable/32a55c6af6f73053fd876afc647144e42211c3bb0132e3e4678860cda2a0a5b0/export/share/applications/

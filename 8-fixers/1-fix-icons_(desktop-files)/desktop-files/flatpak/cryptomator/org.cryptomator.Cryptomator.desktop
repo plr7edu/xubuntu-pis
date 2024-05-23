@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Cryptomator
+Comment=Cloud Storage Encryption Utility
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=cryptomator --file-forwarding org.cryptomator.Cryptomator @@ %F @@
+Icon=org.cryptomator.Cryptomator
+Terminal=false
+Type=Application
+Categories=Privacy;Security;FileTools;
+StartupNotify=true
+StartupWMClass=org.cryptomator.launcher.Cryptomator$MainApp
+MimeType=application/vnd.cryptomator.encrypted;application/vnd.cryptomator.vault;
+X-Flatpak=org.cryptomator.Cryptomator

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Tools;
+Comment=Emoji keyboard
+Exec=emoji-keyboard-appimage
+Icon=/opt/emoji-keyboard-appimage/icons/emoji-keyboard-appimage
+Name=emoji-keyboard-appimage
+Terminal=false
+Type=Application

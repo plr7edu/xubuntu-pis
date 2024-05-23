@@ -1,0 +1,9 @@
+sudo dpkg-reconfigure console-setup
+
+When you run it, it will ask you
+
+    Encoding: UTF-8
+    Character set: Guess best
+    Font: Try Terminus or Terminus Bold 
+          10*18 (framebuffer only)
+

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Espanso
+Exec=espanso launcher
+Icon=/opt/espanso/icons/espanso
+Type=Application
+Categories=Tools;

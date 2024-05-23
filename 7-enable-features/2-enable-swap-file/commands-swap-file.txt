@@ -1,0 +1,11 @@
+1.sudo su
+2.cd /root
+3.dd if=/dev/zero of=/swapfile bs=1M count=4096 status=progress
+4.chmod 600 /swapfile
+5.mkswap /swapfile
+6.cp /etc/fstab /etc/fstab.bak
+7.echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+8.cat /etc/fstab
+9.mount -a
+10.swapon -a
+11.free -m

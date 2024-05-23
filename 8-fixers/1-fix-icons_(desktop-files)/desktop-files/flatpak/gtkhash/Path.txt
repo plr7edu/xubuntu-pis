@@ -1,0 +1,1 @@
+/var/lib/flatpak/app/org.gtkhash.gtkhash/x86_64/stable/484847895a8e4b442e913365e7f0973a6fd277fea4ad0c5a748d911a11982c1e/export/share/applications/

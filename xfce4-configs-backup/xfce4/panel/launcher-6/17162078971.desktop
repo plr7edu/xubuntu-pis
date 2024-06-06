@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Comment=Firefox Browser
+Exec=/home/plr/bin/firefox.d/firefox-browser/firefox %u
+Icon=firefox
+Path=
+Terminal=false
+StartupNotify=false

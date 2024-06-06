@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Tor Browser
+Comment=Tor Browser  is +1 for privacy and −1 for mass surveillance
+Exec=sh -c '"/home/plr/bin/tor-browser.d/Browser/start-tor-browser" --detach || ([ !  -x "/home/plr/bin/tor-browser.d/Browser/start-tor-browser" ] && "$(dirname "$*")"/Browser/start-tor-browser --detach)' dummy %k
+Icon=/home/plr/bin/tor-browser.d/Browser/browser/chrome/icons/default/default128.png
+Path=
+Terminal=false
+StartupNotify=false

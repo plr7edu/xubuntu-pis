@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Open terminal in containing directory</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>edit-find</icon>
+	<name>Find in this folder</name>
+	<submenu></submenu>
+	<unique-id>3-3</unique-id>
+	<command>catfish --path=%f</command>
+	<description>Search for files within this folder</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>document-print</icon>
+	<name>Print file(s)</name>
+	<submenu></submenu>
+	<unique-id>4-4</unique-id>
+	<command>thunar-print %F</command>
+	<description>Send one or multiple files to the default printer</description>
+	<range></range>
+	<patterns>*.asc;*.brf;*.css;*.doc;*.docm;*.docx;*.dotm;*.dotx;*.fodg;*.fodp;*.fods;*.fodt;*.gif;*.htm;*.html;*.jpe;*.jpeg;*.jpg;*.odb;*.odf;*.odg;*.odm;*.odp;*.ods;*.odt;*.otg;*.oth;*.otp;*.ots;*.ott;*.pbm;*.pdf;*.pgm;*.png;*.pnm;*.pot;*.potm;*.potx;*.ppm;*.ppt;*.pptm;*.pptx;*.rtf;*.shtml;*.srt;*.text;*.tif;*.tiff;*.txt;*.xbm;*.xls;*.xlsb;*.xlsm;*.xlsx;*.xltm;*.xltx;*.xpm;*.xwd</patterns>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>root-thunar</icon>
+	<name>Open Directory as Root</name>
+	<submenu></submenu>
+	<unique-id>1715401564123759-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Open current directory using thunar with root permission</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>system-run</icon>
+	<name>Make Executable</name>
+	<submenu></submenu>
+	<unique-id>1715942908760763-1</unique-id>
+	<command>chmod +x %f</command>
+	<description>Make a file execuble</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>object-unlocked</icon>
+	<name>Ownership to User</name>
+	<submenu></submenu>
+	<unique-id>1715943055272342-2</unique-id>
+	<command>/usr/bin/pkexec chown -R $USER:$USER %F</command>
+	<description>Change permissions to user</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>object-locked</icon>
+	<name>Ownership to root</name>
+	<submenu></submenu>
+	<unique-id>1715943087664027-3</unique-id>
+	<command>/usr/bin/pkexec chown -R root:root %F</command>
+	<description>Change permissions to root</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Create Symlink</name>
+	<submenu></submenu>
+	<unique-id>1715943146927613-4</unique-id>
+	<command>ln -s %f &quot;%n&quot;</command>
+	<description>Softlink between two files or directories</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>application-running</icon>
+	<name>Run</name>
+	<submenu></submenu>
+	<unique-id>1715943211566841-5</unique-id>
+	<command>alacritty -e %f</command>
+	<description>Run with terminal</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>extract-archive</icon>
+	<name>Extract Here with dtrx</name>
+	<submenu></submenu>
+	<unique-id>1715943271248976-6</unique-id>
+	<command>dtrx %F</command>
+	<description>Extract with dtrx</description>
+	<range>*</range>
+	<patterns>*.tar.bz2;*tbz2;*zip;*7z;*rar;*tar.xz;*tar.gz</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>org.gnome.Meld</icon>
+	<name>Compare</name>
+	<submenu></submenu>
+	<unique-id>1715943381688275-7</unique-id>
+	<command>meld %F</command>
+	<description>Compare with meld</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>sublime-text</icon>
+	<name>Sublime Text </name>
+	<submenu></submenu>
+	<unique-id>1715943605510794-8</unique-id>
+	<command>subl %f</command>
+	<description>Open with sublime text </description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>edit-as-root</icon>
+	<name>Edit as Root</name>
+	<submenu></submenu>
+	<unique-id>1715943763898330-9</unique-id>
+	<command>pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY  subl %f</command>
+	<description>Edit text with root permission</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+</actions>

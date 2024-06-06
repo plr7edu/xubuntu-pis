@@ -1,1 +1,0 @@
-/var/lib/flatpak/app/org.cryptomator.Cryptomator/x86_64/stable/389a181eaaa78777fcce013db8c0f22e2ed356715e3125bca10e5fd059522c94/export/share/applications/

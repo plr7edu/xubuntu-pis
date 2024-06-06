@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=false
-Name=Picocrypt
-Exec=script.sh
-Icon=/opt/picocrypt/icons/picocrypt
-Categories=Privacy

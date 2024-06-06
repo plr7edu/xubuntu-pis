@@ -1,1 +1,0 @@
-/var/lib/flatpak/app/com.logseq.Logseq/x86_64/stable/7d72cbe49eaeab5fe4802114d4afc764ad592a954b3f9a3565b57e3a25636b69/export/share/applications/

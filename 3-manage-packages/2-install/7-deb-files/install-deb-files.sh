@@ -134,6 +134,15 @@ echo ""
 
 tput setaf 3;
 echo ""
+echo "Install Obsidian"
+echo ""
+echo;tput sgr0
+
+sudo gdebi -n *obsidian*
+echo ""
+
+tput setaf 3;
+echo ""
 echo "Install Ghostwriter"
 echo ""
 echo;tput sgr0

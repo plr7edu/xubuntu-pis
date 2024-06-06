@@ -1,0 +1,7 @@
+Flatseal > All Applications > Environment > Variables
+Add a new Variable and put in GTK_THEME=Adwaita-dark
+
+Restart flatseal and it should already use the dark theme. 
+If you don't have it installed use:
+
+flatpak install org.gtk.Gtk3theme.Adwaita-dark

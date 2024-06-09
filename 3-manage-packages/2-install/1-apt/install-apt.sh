@@ -151,7 +151,7 @@ wget
 inkscape
 qt6ct
 file-roller
-
+kleopatra
 
 #Fonts-----------------------------------------------------------------------
 fonts-noto 

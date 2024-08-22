@@ -5,10 +5,11 @@
     <property name="style" type="empty"/>
     <property name="file-icons" type="empty">
       <property name="show-home" type="empty"/>
-      <property name="show-filesystem" type="empty"/>
+      <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-removable" type="bool" value="true"/>
       <property name="show-trash" type="empty"/>
       <property name="show-network-removable" type="bool" value="false"/>
+      <property name="show-device-removable" type="bool" value="true"/>
     </property>
     <property name="icon-size" type="empty"/>
     <property name="tooltip-size" type="empty"/>
@@ -16,7 +17,7 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/plr/Pictures/MY-WALL/mountains-3840x2160.jpg"/>
+        <property name="image-path" type="string" value="/home/plr/Pictures/MY-WALL/calm-body-of-water-1363876.jpg"/>
         <property name="image-style" type="empty"/>
         <property name="image-show" type="empty"/>
       </property>
@@ -39,7 +40,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/plr/Pictures/MY-WALL/mountains-3840x2160.jpg"/>
+          <property name="last-image" type="string" value="/home/plr/Pictures/MY-WALL/calm-body-of-water-1363876.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>

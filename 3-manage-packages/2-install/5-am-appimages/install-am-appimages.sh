@@ -26,7 +26,6 @@ am -i etcher &&
 am -i espanso &&
 am -i ventoy &&
 am -i emoji-keyboard-appimage &&
-am -i authme &&
 
 tput setaf 2;
 echo ""

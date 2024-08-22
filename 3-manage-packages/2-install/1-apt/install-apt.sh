@@ -152,6 +152,7 @@ inkscape
 qt6ct
 file-roller
 kleopatra
+xpad
 
 #Fonts-----------------------------------------------------------------------
 fonts-noto 

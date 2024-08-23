@@ -28,6 +28,8 @@ flatpak install -y --noninteractive flathub org.gnome.Solanum &&
 flatpak install -y --noninteractive flathub com.logseq.Logseq &&
 flatpak install -y --noninteractive flathub io.github.shiftey.Desktop &&
 flatpak install -y --noninteractive flathub org.cryptomator.Cryptomator &&
+flatpak install -y --noninteractive com.github.tchx84.Flatseal &&
+
 
 tput setaf 2;
 echo ""

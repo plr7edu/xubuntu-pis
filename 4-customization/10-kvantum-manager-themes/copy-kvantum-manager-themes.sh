@@ -15,6 +15,8 @@
 
 config_dir=$HOME/.config/Kvantum/
 
+mkdir ~/.config/Kvantum/
+
 tput setaf 3;
 echo ""
 echo "################################################################"

@@ -16,13 +16,13 @@
 tput setaf 2;
 echo ""
 echo "################################################################"
-echo "Install Starship Prompt"
+echo "Install Oh My Posh"
 echo "################################################################"
 echo ""
 echo;tput sgr0
 
-# Starship
-curl -sS https://starship.rs/install.sh | sh &&
+# ohmyposh
+curl -s https://ohmyposh.dev/install.sh | bash -s
 echo ""
 
 tput setaf 2;
@@ -61,6 +61,16 @@ echo;tput sgr0
 tldr -u
 echo ""
 
+tput setaf 2;
+echo ""
+echo "################################################################"
+echo "Install SpotX-Bash"
+echo "################################################################"
+echo ""
+echo;tput sgr0
+
+# SpotX Mac and Linux adblocker for the Spotify desktop client, in Bash 
+bash <(curl -sSL https://spotx-official.github.io/run.sh)
 
 
 

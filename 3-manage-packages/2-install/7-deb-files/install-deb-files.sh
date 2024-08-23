@@ -150,6 +150,15 @@ echo;tput sgr0
 sudo gdebi -n *ghostwriter*
 echo ""
 
+tput setaf 3;
+echo ""
+echo "Install Visual Studio Code"
+echo ""
+echo;tput sgr0
+
+sudo gdebi -n *code*
+echo ""
+
 sudo apt update &&
 sudo apt install protonvpn -y
 

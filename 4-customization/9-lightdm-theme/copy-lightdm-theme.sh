@@ -24,8 +24,8 @@ echo ""
 echo;tput sgr0
 
 cd $config_dir
-sudo cp lightdm.conf lightdm.conf.bak &&  
-sudo cp lightdm-gtk-greeter.conf lightdm-gtk-greeter.conf.bak &&
+sudo cp -rf lightdm.conf lightdm.conf.bak &&  
+sudo cp -rf lightdm-gtk-greeter.conf lightdm-gtk-greeter.conf.bak &&
 echo "Backup Complete."
 echo " "
 
